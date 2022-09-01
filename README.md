@@ -9,7 +9,7 @@ Stupid `winver` parody for Linux systems
 - `PySimpleGUI`
 
 ### Installation
-Make sure you have `python3`, `pip` installed, and `python3-tkinter` installed using your disto's package manager:
+Make sure you have `python3`, `pip`, and `python3-tkinter` installed using your disto's package manager:
 #### Debian
 ```
 sudo apt-get install python3 pip python3-tkinter
