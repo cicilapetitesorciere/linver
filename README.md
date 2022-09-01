@@ -3,21 +3,23 @@
 Stupid `winver` parody for Linux systems
 
 ### Dependenacies
-[PySimpleGUI](URL "https://github.com/PySimpleGUI/PySimpleGUI#installing--")
+- python3
+- pip
+- python3-tkinter
+- PySimpleGUI
 
 ### Installation
-Make sure PySimpleGUI is installed.
+Make sure you have `python3`, `pip` installed, and `python3-tkinter` installed; and install PySimpleGUI
 ```
 pip3 install PySimpleGUI
 ``` 
-should work in most cases. Then
+Then in some directory of your choice, clone this repo
 
 ```
 git clone https://github.com/cicilapetitesorciere/linver
 ```
-into some directory of your choice, and add 
+Finally add the following lines to the end of your `.bashrc` and change the placeholder paths to the path you cloned `linver` into
 ```
-alias linver="(cd /path/to/linver; python3 linver)"
-alias winver="(cd /path/to/linver; python3 winver)"
+alias linver="(cd /path/to/linver; python3 linver.py)"
+alias winver="(cd /path/to/linver; python3 winver.py)"
 ```
-and replace the placeholder path to your path to the `linver` directory.
